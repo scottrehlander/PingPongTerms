@@ -1,0 +1,53 @@
+.scottList
+{ 
+	padding: 20px;
+	background-color: white; 
+
+	/* outer shadows  (note the rgba is red, green, blue, alpha) */
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6); 
+	-moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+	/* rounded corners */
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px; 
+	border-radius: 7px;
+
+	/* gradients */
+	
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), 
+	 color-stop(65%, white), color-stop(100%, #f7f7f7)); 
+	background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%); */
+	
+	background-image: linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 65%, rgb(213,228,243) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 65%, rgb(213,228,243) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 65%, rgb(213,228,243) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 65%, rgb(213,228,243) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 65%, rgb(213,228,243) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.0, rgb(255,255,255)),
+		color-stop(0.65, rgb(255,255,255)),
+		color-stop(0.99, rgb(213,228,243))
+	);
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F2FF', endColorstr='#D5E4F3');
+
+	color: #445CA6;
+	font-family:arial;
+	font-size: 12px; 
+	width: 150px;
+	float: left;
+	margin: 10px;
+	
+	display: table-cell;
+}
+
+h1.scottListHeader
+{
+	color: #273A75;
+	font-size: 15px; 
+	margin: 0px;
+}
